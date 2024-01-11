@@ -19,7 +19,7 @@ function getFetch(){
         if(document.querySelector('img').src.includes('http')){
           document.querySelector('img').style.display = "block";
           document.querySelector('iframe').style.display = "none";
-        }else{
+        }else {
           document.querySelector('img').style.display = "none";
           document.querySelector('iframe').style.display = "flex";
           document.querySelector('iframe').src = data['url']
