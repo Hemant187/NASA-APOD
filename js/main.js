@@ -17,7 +17,7 @@ function getFetch(){
         document.querySelector('img').src = data['hdurl']
         // checking if data has image then hidden video section 
         if(document.querySelector('img').src.includes('http')){
-          document.querySelector('img').style.display = "flex";
+          document.querySelector('img').style.display = "block";
           document.querySelector('iframe').style.display = "none";
         }else{
           document.querySelector('img').style.display = "none";
